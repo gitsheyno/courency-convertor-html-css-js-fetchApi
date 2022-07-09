@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(#685afea7,#685afe00);
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 400px;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wrapper header {
+    font-size: 1.9rem;
+}
+
+.wrapper form {
+    margin: 40px 0 20px 0;
+}
+
+.wrapper :where(input, select, button) {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.list{
+    margin-top: 40px;
+}
+form p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+form input {
+    background-color: rgba(211, 211, 211, 0.299);
+    font-size: 1rem;
+    height: 50px;
+    padding: 0 1rem;
+}
+
+form input:focus {
+    background-color: transparent;
+    padding: 0 10px;
+    outline: 2px solid #685afea7;
+}
+
+form .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+form .from {
+    padding: 0 1rem;
+
+
+}
+
+form .to {
+    padding: 0 1rem;
+
+}
+
+form .from .from-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 130px;
+    padding: 1.5rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+
+}
+
+form .to .to-box {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    margin-top: 20px;
+    padding: 1.5rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.from-box select {
+    width: auto;
+}
+
+select {
+    margin: 0 -5px 0 5px;
+}
+
+.icon {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+form button {
+    height: 50px;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #685afea7;
+    color: #fff;
+    cursor: pointer;
+}
+
+form .exchange-rate{
+    margin-top: 20px;
+}
